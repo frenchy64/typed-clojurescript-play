@@ -2,6 +2,9 @@
 
 Playground for Typed Clojurescript.
 
+Run `lein typed check-cljs` and change the project.clj `:check-cljs`
+entry to configure which namespaces get type checked.
+
 Intended as an easy way to help complete Typed Clojurescript.
 Please report issues to [Jira](http://dev.clojure.org/jira/browse/CTYP),
 catch ambrose on #typed-clojure on Freenode, or post on the [mailing list](https://groups.google.com/forum/#!forum/clojure-core-typed).
